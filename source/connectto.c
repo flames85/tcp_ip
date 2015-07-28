@@ -29,7 +29,7 @@ void error( int status, int err, char *fmt, ... )
 }
 
 /* set_address - fill in a sockaddr_in structure */
-static void set_address( char *hname, char *sname,
+void set_address( char *hname, char *sname,
 	struct sockaddr_in *sap, char *protocol )
 {
 	struct servent *sp;

@@ -9,7 +9,7 @@ most closely describes your system (bsd, solaris, linux, win), and run
 make.  For UNIX systems, this can be either the system make or gmake.
 For windows, use nmake.  This will perform whatever initializations are
 appropriate for your system.  Next, change back up to the parent (source)
-directory and run make again.  That will build build the libraries and
+directory and run make again.  That will build the libraries and
 test programs.
 
 Most systems will generate a few trivial warnings for the compilations
@@ -27,19 +27,15 @@ Jon Snader
 
 # unix
 1. cd source 
-
 2. make 
-
-3. cd ..
-
-4. make
 
 # windows
 1. cd source 
-
 2. nmake 
 
-3. cd ..
+# mac
+1. cd source
+2. modify makefile "CC ＝ cc"
+2. make
 
-4. nmake
 
