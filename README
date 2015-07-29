@@ -25,9 +25,10 @@ Jon Snader
 
 结合一本国内翻译的书《TCP/IP高效编程》看，效果拔群 😄
 
+以下是自己总结的编译方法：
 # linux
 1. cd source/linux
-2. make                       <--- 给linux打补丁，打完补丁后一些源文件会被改变
+2. make                       <--- 打补丁，打完补丁后一些源文件会被改变
 3. cd ..
 4. make
 
@@ -36,6 +37,8 @@ Jon Snader
 2. make CC=clang              <--- 用mac专门编译c的编译器clang(编译c++的是clang++)
 
 # windows
-1. cd source 
-2. nmake 
+1. cd source/win 
+2. nmake                      <--- 打补丁，打完补丁后一些源文件会被改变
+3. cd ..
+4. nmake
 
