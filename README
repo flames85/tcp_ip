@@ -25,17 +25,19 @@ Jon Snader
 
 结合一本国内翻译的书《TCP/IP高效编程》看，效果拔群 😄
 
-# unix
-1. cd source 
-2. make 
+# linux
+1. cd source/linux
+2. make                       <--- 打补丁
+3. cd ..
+4. make
+
+# mac 
+1. cd source
+2. modify makefile "CC ＝ clang"   <--- 用mac专门编译c的编译器clang(编译c++的是clang++)
+2. make
 
 # windows
 1. cd source 
 2. nmake 
-
-# mac
-1. cd source
-2. modify makefile "CC ＝ cc"
-2. make
 
 
